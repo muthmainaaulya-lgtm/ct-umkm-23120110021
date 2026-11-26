@@ -7,7 +7,7 @@
 // ===== 1. PENGATURAN =====
 // GANTI prefix dengan nama aplikasimu (misalnya 'laundry-ani') supaya datanya terpisah.
 // Samakan juga nilai "app" di data/sample.json, karena impor menolak file aplikasi lain.
-const db = CTStorage.open('catatan-demo');
+const db = CTStorage.open('katering-23120110021');
 const COLLECTION = 'catatan';
 const SAMPLE_URL = 'data/sample.json';
 
