@@ -1,9 +1,4 @@
-# `<isi: nama UMKM>`: `<isi: judul singkat solusi, misalnya "Tiket Servis Digital">`
-
-> [!IMPORTANT]
-> **Isi saat kickoff, lalu jadikan commit pertama kamu.** Bagian yang wajib terisi di commit pertama: **1. Identitas**, **2. Kasus**, dan **3. Data lapangan** (kolom "Rencana" saja). Hapus setiap teks `<isi: ...>` seutuhnya (termasuk tanda `< >`), lalu tulis isianmu sendiri di tempatnya. Bagian lain diisi bertahap sesuai minggu di **Timeline**.
->
-> Kotak petunjuk seperti ini boleh kamu hapus setelah bagiannya terisi.
+# `Katering Rumahan (Nasi Kotak)`: `Kalkulator Bahan Baku Pesanan`
 
 ## 1. Identitas
 
@@ -11,9 +6,9 @@ Repo ini harus **Public** dengan nama `ct-umkm-<NIM>`, supaya dosen bisa membuka
 
 | | |
 |---|---|
-| NIM | `<isi: NIM>` |
-| Nama panggilan (opsional) | `<isi: boleh dikosongkan>` |
-| Repo | `https://github.com/<isi: username>/ct-umkm-<isi: NIM>` |
+| NIM | `23120110021` |
+| Nama panggilan (opsional) | `Muthmaina` |
+| Repo | `https://github.com/muthmainaaulya-lgtm/ct-umkm-23120110021` |
 
 ## 2. Kasus
 
@@ -21,26 +16,24 @@ Salin dari bank studi kasus, lalu tulis ulang masalahnya dengan kalimatmu sendir
 
 | | |
 |---|---|
-| Nomor kasus | `<isi: nomor>` |
-| Jenis UMKM | `<isi: jenis UMKM dari bank kasus>` |
-| Kelompok kasus | `<isi: misalnya Antrean & status order>` |
-| Masalah utama (bank kasus) | `<isi: salin persis>` |
-| Masalah utama (kalimatku) | `<isi: satu kalimat yang menyebut siapa yang rugi dan kapan masalah itu terjadi>` |
-| Tantangan Bonus | `<isi: salin dari bank kasus>` |
+| Nomor kasus | `4` |
+| Jenis UMKM | `Katering rumahan (nasi kotak)` |
+| Kelompok kasus | `Kalkulator harga/estimasi` |
+| Masalah utama (bank kasus) | `Hitung bahan baku manual untuk tiap jumlah porsi` |
+| Masalah utama (kalimatku) | `Pemilik katering rumahan rugi waktu dan berisiko salah belanja (bahan kurang atau lebih) karena setiap ada pesanan nasi kotak ia menghitung kebutuhan bahan satu per satu dengan kalkulator, terutama saat ada beberapa pesanan berdekatan dan porsi harus ditambah cadangan.` |
+| Tantangan Bonus | `Daftar belanja gabungan otomatis dari beberapa pesanan sekaligus` |
 
 ## 3. Data lapangan: rencana dan realisasi
 
 Pilih satu jalur: **minimal 3 narasumber** atau **minimal 20 data transaksi**. Detail dan contoh ada di [`docs/01-data-lapangan.md`](docs/01-data-lapangan.md).
 
-Jalur yang saya pilih: `<isi: narasumber / transaksi>`
+Jalur yang saya pilih: `Narasumber`
 
 | Kode | Siapa (peran, tanpa nama) | Hubungan dengan kasus | Rencana (cara, minggu) | Realisasi |
 |---|---|---|---|---|
-| N1 | `<isi: misalnya pemilik usaha laundry dekat kampus>` | `<isi: UMKM sejenis kasus saya>` | `<isi: tatap muka, PTS−4>` | `<isi: belum / selesai, lihat docs/01>` |
-| N2 | `<isi: peran>` | `<isi: hubungan>` | `<isi: rencana>` | `<isi: realisasi>` |
-| N3 | `<isi: peran>` | `<isi: hubungan>` | `<isi: rencana>` | `<isi: realisasi>` |
-
-Kalau memilih jalur transaksi, isi satu baris saja: kode `T`, sumber catatan (misalnya buku nota pemilik), rencana pengambilan, realisasi.
+| N1 | `Pemilik usaha katering nasi kotak` | `UMKM sejenis kasus saya: orang yang menghitung bahan dan menerima pesanan` | `Tatap muka, PTS−4` | `Selesai, lihat docs/01` |
+| N2 | `Pembelanja bahan baku katering` | `Orang yang memakai hitungan bahan untuk belanja` | `Tatap muka, PTS−4` | `Selesai, lihat docs/01` |
+| N3 | `Pelanggan katering (pemesan nasi kotak)` | `Pemesan yang memakai hasil dan harga katering` | `Tatap muka, PTS−4` | `Selesai, lihat docs/01` |
 
 ## 4. Tautan
 
@@ -69,16 +62,11 @@ Salin Fitur Wajib dari bank kasus **apa adanya**: setiap butir yang dipisah koma
 
 Status: **Belum** · **Sedang dikerjakan** · **Selesai** (berjalan di link live) · **Teruji** (lulus kasus uji di `docs/05-testing.md`).
 
-- [ ] **FW1** `<isi: butir pertama Fitur Wajib>` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
-- [ ] **FW2** `<isi: butir kedua>` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
-- [ ] **FW3** `<isi: butir ketiga>` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
-- [ ] **Bonus** `<isi: Tantangan Bonus, opsional>` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
+- [ ] **FW1** `Form pesanan` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
+- [ ] **FW2** `Kalkulator bahan baku dari jumlah porsi & menu` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
+- [ ] **Bonus** `Daftar belanja gabungan otomatis dari beberapa pesanan sekaligus` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
 
 Jumlah baris FW mengikuti jumlah butir di bank kasus; tambah atau hapus baris kalau jumlahnya bukan tiga. Tantangan Bonus opsional: menambah nilai PAS sampai 10 poin, dengan nilai akhir PAS maksimal 100. Bonus hanya dihitung kalau semua FW berjalan di link live. Centang kotak `[x]` hanya kalau status sudah **Teruji**, lalu ganti `(diisi PAS−2)` dengan kode kasus ujinya, misalnya `U01, U04`.
-
-Contoh satu baris yang sudah selesai (kasus netral, bukan dari bank kasus). Hapus contoh ini setelah kamu paham formatnya:
-
-- [x] **FW1** Tiket servis bernomor · Status: `Teruji` · Kasus uji: `U01, U06`
 
 ## 6. Cara menjalankan di komputer sendiri
 
